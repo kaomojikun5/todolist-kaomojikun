@@ -17,8 +17,8 @@ const addItem = () => {
     
  if (newItemName.value != '' || newItemPrice.value <= 0) {
         items.value.push({ name: newItemName.value, price: newItemPrice.value })
-    newItemName.value = ''
-    newItemPrice.value = 0
+        newItemName.value = ''
+        newItemPrice.value = 0
     }
     
 }
